@@ -1,3 +1,23 @@
+## About iFixCenter
+
+iFixCenter is a simple e-commerce websites with severals use cases for admin as well as user to interact with the categories, products and feedbacks. This project is compiled using Laravel 4.
+
+## Installation Guide
+
+Download the project.
+
+Locate the config/database.php file and edit the database connection accordingly to your local environment.
+
+Run the 2 command composer install and composer update to update the required packages.
+
+Use command php artisan migrate to migrate table to the database,
+
+Locate the UserSeederTable.php then use command php artisan db:seed to get the admin account.
+
+Start up the wamp / lamp server, cd the terminal to the project and run php artisan serve.
+
+The website should now be accessible within http://localhost
+
 ## Laravel PHP Framework
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
